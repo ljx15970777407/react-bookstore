@@ -1,7 +1,7 @@
 import React from 'react';
 import './imgList.css';
-import imgList1 from '../../../../src/assets/images/imgList1.png';
-import imgList2 from '../../../../src/assets/images/imgList2.png';
+import imgList1 from '../../../../src/assets/images/imageList1.png';
+import imgList2 from '../../../../src/assets/images/imageList2.png';
 
 function ImgList() {
     return (
