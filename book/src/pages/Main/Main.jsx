@@ -29,7 +29,7 @@ const Main = (props) => {
     const { maindata } = props
     // action 
     const { getMainDataDispatch } = props
-    const { classify = [], rotationImg = [], menuBarData = {} } = maindata
+    const { rotationImg = [] } = maindata
     // console.log(maindata, '////////////');
     useEffect(() => {
         if (!maindata.length) {
@@ -72,11 +72,13 @@ const Main = (props) => {
                 pullDown={handlePullDown}
             >
                 <div className='main-padding'>
-                    <div className='classify'></div>
-                    {/* <Classify classify={classify} /> */}
-                    <RotationChart rotationImg={rotationImg} />
-                    {/* <MenuBar menuBarData={menuBarData} /> */}
-                    <ImgList />
+                    <div className='withe-box'>
+                        {/* <div className='classify'></div> */}
+                        {/* <Classify classify={classify} /> */}
+                        <RotationChart rotationImg={rotationImg} />
+                        {/* <MenuBar menuBarData={menuBarData} /> */}
+                        <ImgList />
+                    </div>
                     <HomeService />
                     <FrameLayout />
                 </div>

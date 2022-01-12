@@ -5,6 +5,11 @@
     padding: 0 0.324rem;
 }
 .classify {
-    width: 490px;
-    padding: 0.4352rem /* 47/108 */ 0 0.2593rem /* 28/108 */ 0;
+    padding: 0.1352rem /* 47/108 */ 0 0.1293rem /* 28/108 */ 0;
+}
+.withe-box {
+    padding: .5093rem  .3333rem  .4537rem  .2963rem ;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 0.324rem;
 }

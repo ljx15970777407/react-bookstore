@@ -1,14 +1,14 @@
 .rotation-box {
-    width: 9.388rem /* 1014/108 */;
-    height: 2.6944rem /* 291/108 */;
+    width: 8.788rem /* 1014/108 */;
+    height: 3.6944rem /* 291/108 */;
     overflow: hidden;
     font-size: 0;
     border-radius: 5px;
-    margin: .3249rem 0 .3469rem 0;
+    margin: 0 0 .3469rem 0;
   }
   .rotationChart-img {
     display: inline-block;
-    height: 2.6944rem /* 291/108 */;
+    height: 3.6944rem /* 291/108 */;
     width: 9.388rem;
     border-radius: 5px;
   }
