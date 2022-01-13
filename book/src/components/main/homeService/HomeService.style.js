@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Tab = styled.div`
+    margin-bottom: 15px;
     height: 5.137rem /* 382/108 */;
     width: 9.3611rem /* 1011/108 */;
     background-color: #fff;

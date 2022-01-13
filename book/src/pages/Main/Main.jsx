@@ -2,6 +2,7 @@ import React, { useEffect, memo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import Scroll from '../../baseUI/scroll'
 import './Main.css'
+import * as api from '@/api'
 import { connect } from 'react-redux'
 import * as actionTypes from './store/actionCreators'
 // import Classify from
@@ -26,9 +27,13 @@ import Commodity from
     '../../components/main/commodity/Commodity.jsx'
 import Auction from
     '../../components/main/auction/Auction.jsx'
+import ListData from
+    '../../components/main/listData/ListData.jsx'
+import { forceCheck } from 'react-lazyload'
 
 const Main = (props) => {
     // 状态
+    let [list, setList] = useState([])
     const [showPopup, setShowPopup] = useState(false)
     const [display, setDisplay] = useState(false)
     const history = useHistory()
@@ -36,19 +41,36 @@ const Main = (props) => {
     // action 
     const { getMainDataDispatch } = props
     const { rotationImg = [] } = maindata
+    let [page, setPage] = useState(1)
     // console.log(maindata, '////////////');
+    const fetchList = () => {
+        api
+            .reqlist(page)
+            .then(res => {
+                setList([
+                    ...list,
+                    ...res.data.data.list
+                ])
+            })
+    }
     useEffect(() => {
         if (!maindata.length) {
             getMainDataDispatch()
         }
+        fetchList()
     }, [])
+
+    useEffect(() => {
+        fetchList()
+    }, [page])
+    
     const handleOnclick = () => {
         // popun 组件的显示已否
         setShowPopup(!showPopup)
     }
 
     const handlePullUp = () => {
-        // console.log('上拉加载更多');
+        setPage(++page)
     }
 
     const handlePullDown = () => {
@@ -72,6 +94,7 @@ const Main = (props) => {
                         } else {
                             setDisplay(false)
                         }
+                        forceCheck()
                     }
                 }
                 pullUp={handlePullUp}
@@ -89,6 +112,7 @@ const Main = (props) => {
                     </div>
                     <Auction />
                     <HomeService />
+                    <ListData list={list} />
                     {/* <FrameLayout /> */}
                 </div>
             </Scroll>
