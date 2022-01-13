@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-// import './Server.style.js'
+import './Server.css'
 import { connect } from 'react-redux'
 import Scroll from '../../baseUI/scroll'
 
@@ -7,16 +7,16 @@ const Server = (props) => {
     const { category } = props
 
     return (
-        <>
+        <div className='main'>
             <Scroll
                 direction="vertical"
                 refresh={false}
             >
-                <div>
-                    Server
+                <div className='test'>
+                    server
                 </div>
             </Scroll>
-        </>
+        </div>
     )
 }
 

@@ -28,7 +28,7 @@
   }
   .swiper-pagination-bullet-active {
     opacity: 1 !important;
-    width: 7px !important;
+    /* width: 7px !important; */
     background: var(--swiper-pagination-color, var(--swiper-theme-color)) !important;
   }
   img {

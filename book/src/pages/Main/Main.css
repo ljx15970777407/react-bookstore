@@ -1,13 +1,13 @@
-.main {
-    height: calc(100vh - 2.65rem);
-}
+/* .main {
+    /* height: calc(100vh - 2.65rem); */
+/* } */ 
 .main .main-padding {
     padding: 0 0.324rem;
 }
 .classify {
     padding: 0.1352rem /* 47/108 */ 0 0.1293rem /* 28/108 */ 0;
 }
-.withe-box {
+.white-box {
     padding: .5093rem  .3333rem  .4537rem  .2963rem ;
     border-radius: 10px;
     background-color: #fff;

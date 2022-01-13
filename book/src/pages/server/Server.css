@@ -1,0 +1,8 @@
+.main{
+    height: calc(100vh - 2.65rem);
+}
+.test{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

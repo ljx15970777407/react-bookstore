@@ -12,6 +12,8 @@ import RotationChart from
 //     '../../components/main/menuBar/MenuBar.jsx'
 import ImgList from
     '../../components/main/imgList/ImgList.jsx'
+import ImgList2 from
+    '../../components/main/imgList2/ImgList2.jsx'
 import SearchInput from
     '../../components/SearchInput/SearchInput.jsx'
 import MainPopup from
@@ -20,6 +22,10 @@ import HomeService from
     '@/components/main/homeService/HomeService.jsx'
 import FrameLayout from
     '../../components/main/frameLayout/FrameLayout.jsx'
+import Commodity from
+    '../../components/main/commodity/Commodity.jsx'
+import Auction from
+    '../../components/main/auction/Auction.jsx'
 
 const Main = (props) => {
     // 状态
@@ -72,15 +78,18 @@ const Main = (props) => {
                 pullDown={handlePullDown}
             >
                 <div className='main-padding'>
-                    <div className='withe-box'>
+                    <div className='white-box'>
                         {/* <div className='classify'></div> */}
                         {/* <Classify classify={classify} /> */}
                         <RotationChart rotationImg={rotationImg} />
                         {/* <MenuBar menuBarData={menuBarData} /> */}
                         <ImgList />
+                        <Commodity />
+                        <ImgList2 />
                     </div>
+                    <Auction />
                     <HomeService />
-                    <FrameLayout />
+                    {/* <FrameLayout /> */}
                 </div>
             </Scroll>
             <MainPopup
