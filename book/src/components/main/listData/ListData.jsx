@@ -38,7 +38,7 @@ const ListData = (props) => {
                     <TopItem>
                         <div className="personal-info-card">
                             <div className="personal-info-num">旧集追踪</div>
-                            <div className="personal-info-num-name">聚全</div>
+                            <div className="personal-info-num-name">聚全面</div>
                         </div>
                     </TopItem>
                 </NavLink>
