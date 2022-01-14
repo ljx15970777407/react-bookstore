@@ -13,7 +13,7 @@ export const List = styled.div`
         border-radius:1px;
         .ListItem-content__img{
             /* margin: 0 auto; */
-            width:47%;
+            width:100%;
             height:100%;
             border-radius:9px;
             overflow:hidden;

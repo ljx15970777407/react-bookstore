@@ -47,13 +47,42 @@ router.get('/home/list', async (ctx) => {
     let data = Mock.mock({
         'list|20': [{
             "id": '@increment',
-            'title': '@ctitle(15, 20)',
-            'label': '@ctitle(3, 5)',
-            'imgsrc': Random.image('94x107')
+            'title': '@ctitle(5, 10)',
+            'label': '@cname(3, 5)',
+            'imgsrc': Random.image('300x300')
         }]
     })
 
     ctx.body = {
+        success: true,
+        data
+    }
+})
+
+router.get('/detail/:id', async (ctx) => {
+    // console.log(ctx.params, '========')
+    const { id } = ctx.params
+    if (!id) {
+        ctx.response.body = {
+            success: false,
+            msg: '请求有误'
+        }
+        return
+    }
+    // to be continue serverice 取数据库数据 
+    ctx.response.body = {
+        success: true,
+        data: Mock.mock({
+            id,
+            title: '@ctitle(5, 10)',
+            price: '@float(60, 100)'
+        })
+    }
+})
+
+router.get('/more', async (ctx) => {
+    
+    ctx.response.body = {
         success: true,
         data
     }

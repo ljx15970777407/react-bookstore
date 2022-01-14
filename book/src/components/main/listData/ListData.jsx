@@ -5,15 +5,15 @@ import ListItem from './listitem/ListItem'
 
 const ListData = (props) => {
     const { list } = props
-    console.log(list, '------------------')
+    // console.log(list, '------------------')
     return (
         <>
             <Top>
                 <NavLink to="/home/main" activeClassName="selected">
                     <TopItem>
                         <div className="personal-info-card">
-                            <div className="personal-info-num">生活百科</div>
-                            <div className="personal-info-num-name">爱生活</div>
+                            <div className="personal-info-num">新书广场</div>
+                            <div className="personal-info-num-name">聚划算</div>
                         </div>
                     </TopItem>
                 </NavLink>
@@ -21,25 +21,24 @@ const ListData = (props) => {
                 <NavLink to="/a" activeClassName="selected">
                     <TopItem>
                         <div className="personal-info-card">
-                            <div className="personal-info-num">健康生活</div>
-                            <div className="personal-info-num-name">关注健康</div>
+                            <div className="personal-info-num">国学经典</div>
+                            <div className="personal-info-num-name">聚经典</div>
                         </div>
                     </TopItem>
                 </NavLink>
                 <NavLink to="/b" activeClassName="selected">
                     <TopItem>
                         <div className="personal-info-card">
-                            <div className="personal-info-num">宝爸宝妈</div>
-                            <div className="personal-info-num-name">育儿指南</div>
+                            <div className="personal-info-num">艺文集览</div>
+                            <div className="personal-info-num-name">聚文艺</div>
                         </div>
                     </TopItem>
                 </NavLink>
                 <NavLink to="/c" activeClassName="selected">
                     <TopItem>
                         <div className="personal-info-card">
-                            <div className="personal-info-num">家居改造</div>
-                            <div className="personal-info-num-name">
-                                <span>该造家</span> </div>
+                            <div className="personal-info-num">旧集追踪</div>
+                            <div className="personal-info-num-name">聚全</div>
                         </div>
                     </TopItem>
                 </NavLink>

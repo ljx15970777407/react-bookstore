@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Top = styled.div`
+export const Top = styled.div `
     /* display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -13,7 +13,7 @@ export const Top = styled.div`
     flex-direction:row;
     justify-content:space-around;
     border-bottom:1px solid #ececec;
-    z-index:9;
+    /* z-index:9; */
     a{
       justify-content:center;
       color:blue;
@@ -43,14 +43,14 @@ export const Top = styled.div`
       
 `;
 
-export const TopItem = styled.div`
+export const TopItem = styled.div `
 
 .personal-info-card{
 
     /* background-color: #fff; */
     flex:1;
     width:2rem;
-    justify-content:center;
+    /* justify-content:center; */
     margin-top:0.46rem;
 
     .personal-info-num{

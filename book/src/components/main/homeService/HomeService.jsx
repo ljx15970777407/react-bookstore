@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Scroll from '../../../baseUI/scroll'
+import imgMore from '@/assets/images/大于号.png'
+import { useHistory } from 'react-router-dom';
 
 import { Tab, Top, Item } from './HomeService.style'
 function HomeService(props) {
@@ -20,31 +22,35 @@ function HomeService(props) {
         },
         {
             id: 3,
-            title: '《申报》的文人群体与文学谱系',
-            author: '花宏艳',
-            price: '￥27.00元起',
-            img: 'https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/0/a7a9/a7a92631a7033caf6bde737abbcf2fbb_0_0_0_0_water.jpg'
-        },
+            title: '历史脉络中的收藏与鉴定',
+            author: '薛龙春',
+            price: '￥58.00元起',
+            img: 'https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/0/0b11/0b11ca7a00373d680d96962333c20d2a_0_0_0_0_water.jpg'
+        }, 
         {
             id: 4,
-            title: '热土荒丘五十年:中亚考古回忆录',
-            author: '瑞德维拉扎 著',
-            price: '￥18.00元起',
-            img: 'https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/0/ac74/ac74d14f93d4f009bbf5edd4ff79e7ce_0_0_0_0_water.jpg'
-        }, {
-            id: 5,
-            title: '帝制时代的中国:中国历史文化简史',
-            author: '[美]贺凯 著',
-            price: '￥47.18元起',
-            img: 'https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/0/017a/017a7a134a55218ba527eae737389e08_0_0_0_0_water.jpg'
+            title: '故事法则',
+            author: '施爱东',
+            price: '￥37.98元起',
+            img: 'https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/0/8bf5/8bf5912df9de0a0e3579f96fe0be21e6_0_0_0_0_water.jpg'
         }
     ])
+    const history = useHistory()
+    const gotoMore = () => {
+        history.push('/more')
+    }
     return (
         <Tab>
             <Top>
                 <div className="homeservice-left">
                     <div className="homeservice-title">好书推荐</div>
-                    {/* <div className="homeservice-tag">极速上门</div> */}
+                    <div className="homeservice-more" onClick={() => gotoMore()}>
+                        <div className='more-text'>更多</div>
+                        <div className='more-img'>
+                            <img src={imgMore} alt="" />
+                        </div>
+                    </div>
+
                 </div>
                 {/* <span className="homeservice-slogan"></span> */}
             </Top>

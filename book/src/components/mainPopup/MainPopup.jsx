@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components'
 const Popupcontent=styled.div`
     position:absolute;
-    top: 0;
-    left: 0;
+    top: 46px;
+    left: 0px;
     right: 0;
     bottom: 0;
     height:100vh;
     width:100vw;
-    background-color:rgba(0,0,0,0.1);
-    z-index:99;
+    background-color:rgba(0,0,0,0);
+    z-index:999;
     .father{
         position:absolute;
         top:39px;
@@ -17,7 +17,7 @@ const Popupcontent=styled.div`
         >span{
             position:absolute;
             right:-2px;
-            top:-2px;
+            top:2px;
             display:block;
             border-top:0.2rem solid transparent;
             border-left:0.2rem solid transparent;
@@ -26,6 +26,7 @@ const Popupcontent=styled.div`
         }
         .content{
             width:3rem;
+            display: inline-block;
             position:absolute;
             top:16px;
             right:-12px;
