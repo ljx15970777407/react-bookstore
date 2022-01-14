@@ -102,7 +102,7 @@ const Main = (props) => {
             >
                 <div className='main-padding'>
                     <div className='white-box'>
-                        {/* <div className='classify'></div> */}
+                        <div className='classify'></div>
                         {/* <Classify classify={classify} /> */}
                         <RotationChart rotationImg={rotationImg} />
                         {/* <MenuBar menuBarData={menuBarData} /> */}

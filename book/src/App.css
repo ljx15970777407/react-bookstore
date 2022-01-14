@@ -76,7 +76,7 @@ body {
   max-width: 10rem;
   font-size: 16px;
   margin: 0 auto;
-  padding-top: 44px;
+  /* padding-top: 44px; */
   /*ipone规则 给header让位*/
 }
 

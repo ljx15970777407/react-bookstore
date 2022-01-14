@@ -1,0 +1,106 @@
+/* head */
+.bgimg-my {
+    background-size: 10rem;
+    background-image: url('../../assets/images/my.jpg');
+}
+.my-info {
+    width: 10rem;
+    height: 5.6rem;
+}
+.my-info-head {
+    display: flex;
+}
+.my-info-name {
+    display: flex;
+}
+.image-head {
+    margin: 50px 10px 0 25px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-size: 50px, 50px;
+    background-image: url('../../assets/images/头像.jpg');
+}
+.head-text {
+    margin-top: 60px;
+    font-size: 25px;
+    color: #000;
+    font: bold;
+}
+.my-info-icon {
+    display: flex;   
+    margin: 65px 0 0 85px
+}
+.icon-setting {
+    
+    height: 25px;
+    width: 25px;
+    background-size: 25px, 25px;
+    background-image: url('../../assets/images/设置.png');
+}
+.icon-info {
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    background-size: 25px, 25px;
+    background-image: url('../../assets/images/消息.png');
+}
+.my-info-head2 {
+    margin-top: 45px;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+}
+.head2-one {
+    flex: 1;
+}
+.head2-border {
+    flex: 1;
+    border-left: 1px solid rgb(146, 143, 143);
+    border-right: 1px solid rgb(146, 143, 143);
+}
+.head2-three {
+    flex: 1;
+}
+
+/* one div */
+.bookstore-order {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(91, 91, 102);
+    /* border: 1px solid rgb(107, 98, 98); */
+    margin: -30px 5px 0 5px;
+}
+.order-title {
+    display: flex;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+.order-text {
+    margin: 15px 200px 15px 15px;
+}
+.order-whole {
+    display: flex;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 15px;
+}
+.whole-border {
+    margin-top: 5px;
+    transform: rotate(-45deg);
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid rgb(155, 154, 154);
+    border-right: 2px solid rgb(175, 174, 174);
+}
+.order-list {
+    margin-top: 20px;
+    display: flex;
+}
+.homeservice-img {
+    width: 50px;
+    height: 50px;
+}
+.homeservice-item {
+    flex: 1;
+    text-align: center;
+}
