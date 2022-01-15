@@ -1,5 +1,6 @@
 /* head */
 .bgimg-my {
+    /* position: relative; */
     background-size: 10rem;
     background-image: url('../../assets/images/my.jpg');
 }
@@ -65,19 +66,22 @@
 
 /* one div */
 .bookstore-order {
+    padding: 10px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: rgb(91, 91, 102);
-    /* border: 1px solid rgb(107, 98, 98); */
-    margin: -30px 5px 0 5px;
+    margin: -30px 10px 0 10px;
 }
 .order-title {
     display: flex;
     font-size: 15px;
     border-bottom: 1px solid rgb(195, 195, 195);
+    transform: calc(0.5)
 }
 .order-text {
-    margin: 15px 200px 15px 15px;
+    margin: 15px 180px 15px 15px;
+    font-size: 16px;
+    font: bold;
 }
 .order-whole {
     display: flex;
@@ -97,10 +101,118 @@
     display: flex;
 }
 .homeservice-img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 .homeservice-item {
     flex: 1;
     text-align: center;
+}
+.homeservice-text{
+    font-size: 14px;
+}
+
+/* one box */
+.service-box {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(91, 91, 102);
+    margin: 10px;
+    display: flex;
+}
+.service-left {
+    flex: 1;
+    text-align: center;
+}
+.service-mid {
+    flex: 1;
+    text-align: center;
+}
+.service-right {
+    flex: 1;
+    text-align: center;
+}
+.service-left-img1 {
+    margin-left: 33px;
+    margin-bottom: 5px;
+    width: 47px;
+    height: 47px;
+    background-image: url('../../assets/images/service-img1.png');
+}
+.service-left-img2 {
+    margin-left: 33px;
+    margin-bottom: 5px;
+    width: 47px;
+    height: 47px;
+    background-image: url('../../assets/images/service-img2.png');
+}
+.service-left-img3 {
+    margin-left: 33px;
+    margin-bottom: 5px;
+    width: 47px;
+    height: 47px;
+    background-image: url('../../assets/images/service-img3.png');
+}
+.service-left-text {
+    color: rgb(132, 134, 130);
+}
+
+/* my-auction */
+.my-auction {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(91, 91, 102);
+    margin: 10px;
+}
+.my-auction-content {
+    display: flex;
+}
+.my-auction-left {
+    margin: 15px 120px 15px 15px;
+    font-size: 16px;
+    font: bold;
+}
+.my-auction-right {
+    display: flex;
+    margin-top: 16px;
+}
+.my-auction-right-text{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.4rem;
+}
+.my-auction-right-border {
+    margin-top: 6px;
+    transform: rotate(-45deg);
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid rgb(155, 154, 154);
+    border-right: 2px solid rgb(175, 174, 174);
+}
+
+/* my-service */
+.my-service {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(91, 91, 102);
+    margin: 10px;
+}
+
+/* my-recommend */
+.my-recommend {
+    background-color: #fff;
+    box-shadow: rgb(91, 91, 102);
+}
+.recommend-title {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* more */
+.more-my {
+    width: 10rem;
+    height: 1000px;
 }
