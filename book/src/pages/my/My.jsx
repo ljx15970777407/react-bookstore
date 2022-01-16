@@ -39,11 +39,12 @@ const My = (props) => {
     }
   ])
   return (
-    <>
+    
       <Scroll
         direction="vertical"
         refresh={false}
-      >
+    >
+      <div className='main'>
         <div className='bgimg-my'>
           <div className='my-info'>
             <div className='my-info-head'>
@@ -158,11 +159,14 @@ const My = (props) => {
         </div>
         <div className='my-recommend'>
           <div className='recommend-title'>——  为你推荐  ——</div>
-
+          <div >
+            
+          </div>
         </div>
         <div className='more-my'></div>
+      </div>
       </Scroll>
-    </>
+    
   )
 }
 

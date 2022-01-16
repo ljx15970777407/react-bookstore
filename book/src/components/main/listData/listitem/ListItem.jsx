@@ -6,12 +6,11 @@ import { useHistory } from 'react-router-dom';
 
 const ListItem = (props) => {
     const { item } = props;
-    console.log(item, '///////')
+    // console.log(item, '///////')
     const history = useHistory()
     const gotoDetail = (id) => {
         history.push(`/detail/${id}`)
     }
-
     return (
         <>
             <List onClick={() => gotoDetail(item.id)}>

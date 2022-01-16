@@ -1,3 +1,6 @@
+/* .main {
+    height: calc(100vh);
+} */
 /* head */
 .bgimg-my {
     /* position: relative; */
@@ -171,7 +174,7 @@
     display: flex;
 }
 .my-auction-left {
-    margin: 15px 120px 15px 15px;
+    margin: 15px 116px 15px 15px;
     font-size: 16px;
     font: bold;
 }

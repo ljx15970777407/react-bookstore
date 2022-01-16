@@ -21,11 +21,11 @@ function Commodity() {
                                 <p>签名本</p>
                             </div>
                             <div className='tpye-list'>
-                                <p>线装古籍</p>
-                                <p>期刊</p>
-                                <p>外文原版</p>
-                                <p>收藏鉴赏</p>
-                                <p>签名本</p>
+                                <p>民国旧书</p>
+                                <p>报纸</p>
+                                <p>国学古典</p>
+                                <p>红色文献</p>
+                                <p>连环画</p>
                             </div>
                         </div>
                     </div>

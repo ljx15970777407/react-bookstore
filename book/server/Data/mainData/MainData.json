@@ -39,5 +39,42 @@
             "picUrl": "https://img0.kfzimg.com/operation/0e/fa/0efa496b58696f4b9a5b58a2437608ce.jpg",
             "linkUrl": "http://localhost:3000/main"
         }
+    ],
+    "homeServiceData": [
+        {
+            "id": 1,
+            "title": "胡适:行走与梦醒之间",
+            "author": "李伟 著",
+            "price": "￥17.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+        },
+        {
+            "id": 2,
+            "title": "胡适:行走与梦醒之间",
+            "author": "李伟 著",
+            "price": "￥17.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+        },
+        {
+            "id": 3,
+            "title": "胡适:行走与梦醒之间",
+            "author": "李伟 著",
+            "price": "￥17.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+        },
+        {
+            "id": 4,
+            "title": "胡适:行走与梦醒之间",
+            "author": "李伟 著",
+            "price": "￥17.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+        },
+        {
+            "id": 4,
+            "title": "胡适:行走与梦醒之间",
+            "author": "李伟 著",
+            "price": "￥17.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+        }
     ]
 }

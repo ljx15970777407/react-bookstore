@@ -84,7 +84,11 @@ router.get('/more', async (ctx) => {
     
     ctx.response.body = {
         success: true,
-        data
+        data: Mock.mock({
+            id,
+            title: '@ctitle(5, 10)',
+            price: '@float(60, 100)'
+        })
     }
 })
 

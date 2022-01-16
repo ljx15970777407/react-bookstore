@@ -7,7 +7,7 @@ import HeaderComponent from '../../common/headerComponent/HeaderComponent.jsx'
 const Detail = (props) => {
     const { data } = props
     const { getDetailData } = props
-    console.log(data, '////////////////////');
+    // console.log(data, '////////////////////');
     let { pathname } = useLocation()
     let id = pathname.replace('/detail/') || undefined;
     useEffect(() => {
