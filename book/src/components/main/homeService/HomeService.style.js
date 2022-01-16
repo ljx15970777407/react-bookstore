@@ -63,31 +63,32 @@ export const Item = styled.ul`
     height: 2.1574rem /* 233/108 */;
     padding-top: .23rem;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     & .homeservice-item{
         /* margin-left: 15px;
         display: inline-block; */
-        /* flex:1; */
+        flex:1;
         margin-left: 15px;
-        width: 4.835rem;
-        height: 4.243rem
+        text-align: left;
+        /* width: 4.835rem; */
+        /* height: 4.243rem */
     }
       & .homeservice-img__box {
             width: 100%;
-            text-align:center
+            margin-top: 10px;
+            /* text-align:center */
             /* height: 100%; */
-            margin:.3rem .3rem .2rem .3rem;
+            /* margin:.3rem .3rem .2rem .3rem; */
       }
         & .homeservice-img{
-            /* width: 100%;
-            height: 100%; */
+            width: 100%;
+            height: 100%;
         }
         & .homeservice-text{
         /* text-align:center */
         width:2.3333rem;
         height: .287rem
         font-size: .287rem /* 31/108 */;
-        /* text-align:center; */
         overflow:hidden;
         text-overflow:ellipsis;
         white-space:nowrap;
@@ -95,9 +96,9 @@ export const Item = styled.ul`
         & .homeservice-author{
           /* text-align:center; */
           color: #999;
-          overflow:hidden;
+          /* overflow:hidden;
           text-overflow:ellipsis;
-          white-space:nowrap;
+          white-space:nowrap; */
         }
         & .homeservice-price{
           /* text-align:center; */

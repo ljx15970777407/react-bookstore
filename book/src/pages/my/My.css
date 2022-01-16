@@ -3,6 +3,7 @@
     /* position: relative; */
     background-size: 10rem;
     background-image: url('../../assets/images/my.jpg');
+    margin-bottom: -30px;
 }
 .my-info {
     width: 10rem;
@@ -22,7 +23,7 @@
     background-size: 50px, 50px;
     background-image: url('../../assets/images/头像.jpg');
 }
-.head-text {
+.my-head-text {
     margin-top: 60px;
     font-size: 25px;
     color: #000;
@@ -70,7 +71,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: rgb(91, 91, 102);
-    margin: -30px 10px 0 10px;
+    margin: 0px 10px 0 10px;
 }
 .order-title {
     display: flex;
@@ -100,11 +101,11 @@
     margin-top: 20px;
     display: flex;
 }
-.homeservice-img {
+.homeservice-img-my {
     width: 30px;
     height: 30px;
 }
-.homeservice-item {
+.homeservice-item-my {
     flex: 1;
     text-align: center;
 }
@@ -138,21 +139,21 @@
     margin-bottom: 5px;
     width: 47px;
     height: 47px;
-    background-image: url('../../assets/images/service-img1.png');
+    /* background-image: url('../../assets/images/service-img1.png'); */
 }
 .service-left-img2 {
     margin-left: 33px;
     margin-bottom: 5px;
     width: 47px;
     height: 47px;
-    background-image: url('../../assets/images/service-img2.png');
+    /* background-image: url('../../assets/images/service-img2.png'); */
 }
 .service-left-img3 {
     margin-left: 33px;
     margin-bottom: 5px;
     width: 47px;
     height: 47px;
-    background-image: url('../../assets/images/service-img3.png');
+    /* background-image: url('../../assets/images/service-img3.png'); */
 }
 .service-left-text {
     color: rgb(132, 134, 130);
