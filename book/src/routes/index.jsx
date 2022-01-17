@@ -7,6 +7,7 @@ const Info = lazy(() => import('../pages/info/Info.jsx'))
 const My = lazy(() => import('../pages/my/My.jsx'))
 const Detail = lazy(() => import('../pages/details/Detail.jsx'))
 const More = lazy(() => import('../pages/more/More.jsx'))
+const Search = lazy(() => import('../pages/search/Search.jsx'))
 
 import Tabbuttom from '../components/tabbuttom/Tabbuttom';
 
@@ -71,6 +72,16 @@ export default [{
                 {
                     path: "/more",
                     component: SuspenseComponent(More)
+                }
+            ]
+        },
+        {
+            path: '/search',
+            component: SuspenseComponent(Search),
+            routes: [
+                {
+                    path: "/search",
+                    component: SuspenseComponent(Search)
                 }
             ]
         }

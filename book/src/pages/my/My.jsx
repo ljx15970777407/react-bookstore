@@ -40,10 +40,7 @@ const My = (props) => {
   ])
   return (
     
-      <Scroll
-        direction="vertical"
-        refresh={false}
-    >
+     
       <div className='main'>
         <div className='bgimg-my'>
           <div className='my-info'>
@@ -165,7 +162,6 @@ const My = (props) => {
         </div>
         <div className='more-my'></div>
       </div>
-      </Scroll>
     
   )
 }

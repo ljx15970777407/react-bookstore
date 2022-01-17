@@ -1,0 +1,78 @@
+.search-top {
+    display: flex;
+}
+.search-searchplace {
+    margin-top: 45px;
+    margin-left: 15px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+}
+.search-searchborder {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}
+.search-searchimg {
+    width: 100%;
+    height: 100%;
+}
+input{
+    font-size: 16px;
+    border: none;
+}
+.search-text{
+    color: rgb(172, 21, 19);
+    margin-top: 53px;
+    margin-left: 18px;
+    font-size: 16px;
+}   
+.search-searchborder-x {
+    width: 18px;
+    height: 18px;
+    margin-left: 35px;
+    margin-top: 8px;
+}
+
+.search-mid {
+    margin-top: 15px;
+    display: flex;
+    font-size: 16px;
+}
+.search-mid-left {
+    margin-left: 80px;
+    color: rgb(172, 21, 19);
+    font: bold;
+}
+.search-mid-mided {
+    margin: 0 60px;
+    color: rgb(140, 140, 140);
+}
+.search-mid-right {
+    color: rgb(140, 140, 140);
+}
+
+.search-hot {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 18px;
+    height: 100vh;
+}
+.search-hot-title {
+    font-size: 14px;
+}
+.search-hot-list {
+    display: flex;
+    padding: 10px;
+}
+.search-hot-list1, .search-hot-list2, .search-hot-list3, .search-hot-list4 {
+    flex: 1;
+    font-size: 13px;
+    color: rgb(140, 140, 140);
+    font: bold;
+}
+.search-hot-list p {
+    padding: 8px;
+}

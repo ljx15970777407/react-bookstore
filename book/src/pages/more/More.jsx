@@ -20,6 +20,9 @@ const More = (props) => {
     const { homeServiceData = [] } = maindata
     // console.log(homeServiceData, '=======================');
     const history = useHistory()
+    const gotoSearch = () => {
+        history.push('/search')
+    }
     const { getMainDataDispatch } = props
     let [page, setPage] = useState(1)
     const fetchList = () => {
@@ -47,7 +50,7 @@ const More = (props) => {
                     <p className='search-border-more'>
                         <img className='search-img-more' src={imgSearch}></img>
                     </p>
-                    <input type="text" placeholder='商品名称 作者 出版社 ISBN' onFocus={SearchBoxhandleOnclick} />
+                    <input onClick={() => gotoSearch()} type="text" placeholder='商品名称 作者 出版社 ISBN' onFocus={SearchBoxhandleOnclick} />
                 </div>
             </div>
             <div className='more-main'>
