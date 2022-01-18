@@ -3,6 +3,8 @@ import { renderRoutes } from 'react-router-config';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom'
 import './bottom.css';
+import imgGwc from '../../assets/images/gouwuche.png'
+import imgAGwc from '../../assets/images/action-gwc.png'
 import { connect } from 'react-redux';
 import HeadNumIcon from '../../common/headNumIcon/HeadNumIcon';
 import { actionCreators } from '../../pages/Main/store';
@@ -66,11 +68,11 @@ const Bottom = (props) => {
                         {backgroundPosition:"-2.528rem 0px"}}></div>
                     <div className="planet"style={index===2?{color:"#ec564b"}:{}} >
                             购物车
-                            <HeadNumIcon 
+                            {/* <HeadNumIcon 
                                 display="" 
                                 top="-0.92rem"
                                 left="1.5rem" 
-                                num={num}/>
+                                num={num}/> */}
                     </div>
                 </Link>
 
