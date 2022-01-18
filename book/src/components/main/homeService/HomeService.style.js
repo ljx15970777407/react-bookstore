@@ -86,7 +86,7 @@ export const Item = styled.ul`
         }
         & .homeservice-text{
         /* text-align:center */
-        width:2.3333rem;
+        width:2.1rem;
         height: .287rem
         font-size: .287rem /* 31/108 */;
         overflow:hidden;
@@ -96,9 +96,10 @@ export const Item = styled.ul`
         & .homeservice-author{
           /* text-align:center; */
           color: #999;
-          /* overflow:hidden;
+          width:2.1rem;
+          overflow:hidden;
           text-overflow:ellipsis;
-          white-space:nowrap; */
+          white-space:nowrap;
         }
         & .homeservice-price{
           /* text-align:center; */

@@ -13,8 +13,9 @@ function HomeService(props) {
   const { homeServiceData = [] } = maindata
   // console.log(homeServiceData, '=======================');
   const history = useHistory()
-  const { getMainDataDispatch } = props
   let [page, setPage] = useState(1)
+  const { getMainDataDispatch } = props
+  
   const fetchList = () => {
     api
       .reqlist(page)
@@ -26,6 +27,7 @@ function HomeService(props) {
       })
   }
   const gotoMore = () => {
+    // console.log("@@@@@@@@@@@@@@@");
     history.push('/more')
   }
   useEffect(() => {
@@ -40,7 +42,7 @@ function HomeService(props) {
         <div className="homeservice-left">
           <div className="homeservice-title">好书推荐</div>
           <div className="homeservice-more" onClick={() => gotoMore()}>
-            <div className='more-text'>更多</div>
+            <div className='more-text' >更多</div>
             <div className='more-img'>
               <img src={imgMore} alt="" />
             </div>

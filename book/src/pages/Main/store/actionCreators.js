@@ -32,7 +32,6 @@ export const getMainData = () => {
     return (dispatch) => {
         reqmain()
             .then((res) => {
-                console.log(res);
                 dispatch(changeMainData(res.data.data))
             })
             .catch((e) => {
@@ -41,3 +40,11 @@ export const getMainData = () => {
     }
 }
 
+
+export const addShopCar = (data) => {
+    console.log("进去成功...............");
+    return {
+        type: actionType.ADD_SHOPCAR,
+        data: data
+    }
+}

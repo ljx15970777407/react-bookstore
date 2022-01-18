@@ -37,7 +37,8 @@ const Main = (props) => {
     const [showPopup, setShowPopup] = useState(false)
     const [display, setDisplay] = useState(false)
     const history = useHistory()
-    const { maindata } = props
+    const { maindata } = props;
+    // console.log(props,"[[[[[[[[[[[[");
     // action 
     const { getMainDataDispatch } = props
     const { rotationImg = [] } = maindata
@@ -126,7 +127,6 @@ const Main = (props) => {
 const mapStateToDispatch = (dispatch) => {
     return {
         getMainDataDispatch() {
-
             dispatch(actionTypes.getMainData())
         }
     }

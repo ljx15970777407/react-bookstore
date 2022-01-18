@@ -36,20 +36,20 @@ export const Item = styled.div`
         & .homeservice-text-more{
         /* text-align:center */
         margin-top: 20px;
-        width:100%;
+        /* width:100%; */
         height: .287rem
         font-size: .287rem /* 31/108 */;
-        overflow:hidden;
-        text-overflow:ellipsis;
-        white-space:nowrap;
+        /* overflow:hidden;
+        text-overflow:ellipsis; */
+        /* white-space:nowrap; */
         }
         & .homeservice-author-more{
           /* text-align:center; */
           color: #999;
           padding: 20px 0;
-          /* overflow:hidden;
+          overflow:hidden;
           text-overflow:ellipsis;
-          white-space:nowrap; */
+          white-space:nowrap;
         }
         & .homeservice-price-more{
           /* text-align:center; */

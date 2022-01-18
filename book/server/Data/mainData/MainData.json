@@ -43,38 +43,143 @@
     "homeServiceData": [
         {
             "id": 1,
-            "title": "胡适:行走与梦醒之间",
-            "author": "李伟 著",
-            "price": "￥17.00元起",
-            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+            "title": "青城",
+            "author": "作者: 徐则臣 著",
+            "price": "￥78.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/bc2e/bc2ee73daa27358606a429091c61857d_0_1_300_300.jpg"
         },
         {
             "id": 2,
-            "title": "胡适:行走与梦醒之间",
-            "author": "李伟 著",
-            "price": "￥17.00元起",
-            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+            "title": "六朝诗学论集",
+            "author": "作者: 曹旭 著",
+            "price": "￥117.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/1767/176757ddfe912eca8fff30b0991de907_0_1_300_300.jpg"
         },
         {
             "id": 3,
-            "title": "胡适:行走与梦醒之间",
-            "author": "李伟 著",
-            "price": "￥17.00元起",
-            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+            "title": "小说史学面面观",
+            "author": "作者: 陈平原",
+            "price": "￥88.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/44be/44be9bacec7a9f2244c0138835b04ab1_0_1_300_300.jpg"
         },
         {
             "id": 4,
-            "title": "胡适:行走与梦醒之间",
-            "author": "李伟 著",
-            "price": "￥17.00元起",
-            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+            "title": "天吾手记",
+            "author": "作者: 双雪涛 著",
+            "price": "￥59.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/ac0a/ac0a688ae7c7a0f2ec5051e44866e754_0_1_300_300.jpg"
         },
         {
-            "id": 4,
+            "id": 5,
+            "title": "感知·理知·自我认知",
+            "author": "作者: 陈嘉映 著",
+            "price": "￥58.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/28ea/28ea8d8e3e6457a5dea3a689153e46c4_0_1_300_300.jpg"
+        },
+        {
+            "id": 6,
+            "title": "唐代女道士的生命之旅",
+            "author": "作者: 贾晋华 译",
+            "price": "￥68.80元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/8cfd/8cfd7213ee23ae49dc40fbb0fa5e605d_0_1_300_300.jpg"
+        },
+        {
+            "id": 7,
+            "title": "1898年的夏日：一个德国记者的中国观察",
+            "author": "作者: [德] 保罗·戈德曼",
+            "price": "￥68.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/c2f9/c2f9ffaa38dc695b66e94931c8690248_0_1_300_300.jpg"
+        },
+        {
+            "id": 8,
+            "title": "天朝的封建官僚机制：古代中国经济和社会研究",
+            "author": "作者: [法] 白乐日",
+            "price": "￥58.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/1a63/1a633aea06806d8911489c51e31c1a03_0_1_300_300.jpg"
+        },
+        {
+            "id": 9,
+            "title": "考古中国",
+            "author": "作者: 许宏",
+            "price": "￥168.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/186b/186b4fea3f651de5352f83e49096c9c9_0_1_300_300.jpg"
+        },
+        {
+            "id": 10,
+            "title": "蜀道早期交通考论",
+            "author": "作者: 孟凡华 著",
+            "price": "￥58.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/eb4a/eb4aa02d4ea3650b6a6467b6d674a642_0_1_300_300.jpg"
+        },
+        {
+            "id": 11,
             "title": "胡适:行走与梦醒之间",
             "author": "李伟 著",
-            "price": "￥17.00元起",
-            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/676d/676d70976fb60205797cfe6b75808a9b_0_1_300_300.jpg"
+            "price": "￥37.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/d0d1/d0d1fe38d58387dd5d2d8898679a2fff_0_1_300_300.jpg"
+        },
+        {
+            "id": 12,
+            "title": "局内人的写作",
+            "author": "作者: 李洱 著",
+            "price": "￥78.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/a315/a31566f822c63d81db558b8a8e86141c_0_1_300_300.jpg"
+        },
+        {
+            "id": 13,
+            "title": "《申报》的文人群体与文学谱系",
+            "author": "作者: 花宏艳",
+            "price": "￥87.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/a7a9/a7a92631a7033caf6bde737abbcf2fbb_0_1_300_300.jpg"
+        },
+        {
+            "id": 14,
+            "title": "热土荒丘五十年：中亚考古回忆录",
+            "author": "作者: 瑞德维拉扎 著",
+            "price": "￥178.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/ac74/ac74d14f93d4f009bbf5edd4ff79e7ce_0_1_300_300.jpg"
+        },
+        {
+            "id": 15,
+            "title": "历史脉络中的收藏与鉴定",
+            "author": "作者: 薛龙春",
+            "price": "￥98.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/0b11/0b11ca7a00373d680d96962333c20d2a_0_1_300_300.jpg"
+        },
+        {
+            "id": 16,
+            "title": "中国建筑",
+            "author": "作者: [德] 恩斯特·伯施曼 著",
+            "price": "￥198.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/cc1f/cc1f11819c4a2d9d3112df71ec12b705_0_1_300_300.jpg"
+        },
+        {
+            "id": 17,
+            "title": "故事法则",
+            "author": "作者: 施爱东",
+            "price": "￥47.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/8bf5/8bf5912df9de0a0e3579f96fe0be21e6_0_1_300_300.jpg"
+        },
+        {
+            "id": 18,
+            "title": "器成天下：中国瓷器考",
+            "author": "作者: [法] 奥图·德·萨代尔",
+            "price": "￥64.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/b8d3/b8d31f8d7f85beb79ea557b72ff7e8e1_0_1_300_300.jpg"
+        },
+        {
+            "id": 19,
+            "title": "至少还有书",
+            "author": "作者: 帕梅拉·保罗",
+            "price": "￥59.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/a7bd/a7bd58b15054f42c2f7bd0add517ea80_0_1_300_300.jpg"
+        },
+        {
+            "id": 20,
+            "title": "王阳明传",
+            "author": "作者: 李庆 著",
+            "price": "￥88.00元起",
+            "img": "https://booklibimg.kfzimg.com/data/book_lib_img_v2/user/1/5714/5714046f1820592adb5e7830a252481a_0_1_300_300.jpg"
         }
     ]
 }

@@ -3,7 +3,8 @@ import * as actionTypes from './constants';
 const defaultstate = {
     maindata: [],
     num: 99,
-    index: 0 // tabbar哪个被激活？ 核心状态 
+    index: 0, // tabbar哪个被激活？ 核心状态 ,
+    shopCarData:[]
 }
 
 const reducer = (state = defaultstate, action) => {
@@ -13,7 +14,10 @@ const reducer = (state = defaultstate, action) => {
         case actionTypes.SET_NUM:
             return {...state, num: action.data}
         case actionTypes.CHANGE_MAINDATA:
-            return {...state, maindata: action.data }
+            return { ...state, maindata: action.data }
+        case actionTypes.ADD_SHOPCAR:
+            console.log(action.data);
+            return { ...state, shopCarData: action.data }
         default:
             return state;
     }

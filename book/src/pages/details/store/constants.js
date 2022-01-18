@@ -1,1 +1,2 @@
 export const CHANGE_DETAIL_DATA = "CHANGE_DETAIL_DATA"
+export const GOTO_DETAIL = "GOTO_DETAIL"

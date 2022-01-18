@@ -39,3 +39,21 @@
     width: 0.3703rem;
     height: 0.3703rem;
 }
+.homeservice-price-more {
+    display: flex;
+}
+.addShopCar {
+    position: absolute;
+    right: 10px;
+    background-color: rgb(226, 221, 221);
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: -5px;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+.addShopCar img {
+    width: 100%;
+    height: 100%;
+}

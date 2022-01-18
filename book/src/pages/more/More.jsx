@@ -2,16 +2,18 @@ import React, { memo, useState, useEffect } from 'react';
 // import Scroll from '../../../baseUI/scroll'
 import { useHistory } from 'react-router-dom';
 import { connect } from 'react-redux'
-import * as actionTypes from '@/pages/Main/store/actionCreators'
+import * as actionTypesMain from '@/pages/main/store/actionCreators'
+import * as actionTypesDetail from '@/pages/details/store/actionCreators'
 import * as api from '@/api'
 import imgSearch from '../../assets/images/搜索.png'
+import imgShopCar from '../../assets/images/购物车.png'
 import './More.css'
 import HeaderComponent from '@/common/headerComponent/HeaderComponent.jsx'
 import { Item } from './More.style'
 
 const More = (props) => {
 
-    const { handleOnclick, SearchBoxhandleOnclick } = props;
+    const { handleOnclick, SearchBoxhandleOnclick, AddShopcarDispatch, gotoDetailDispatch } = props;
     const handleShare = () => {
         // to be continue share
     }
@@ -23,6 +25,10 @@ const More = (props) => {
     const gotoSearch = () => {
         history.push('/search')
     }
+    // const AddShopcar = (item) => {
+    //     console.log(item);
+    //     AddShopcarDispatch(item)
+    // }
     const { getMainDataDispatch } = props
     let [page, setPage] = useState(1)
     const fetchList = () => {
@@ -41,7 +47,10 @@ const More = (props) => {
         }
         fetchList()
     }, [])
-
+    const gotoDetail = (item) => {
+        gotoDetailDispatch(item)
+        history.push(`/detail/${item.id}`)
+    }
     return (
         <>
             <HeaderComponent title='好书推荐' handleShare={handleShare} />
@@ -63,17 +72,21 @@ const More = (props) => {
                             return (
                                
                                     
-                                <div className="homeservice-item-more" key={index}>
+                                <div className="homeservice-item-more" onClick={() => gotoDetail(item)} key={index}>
                                     <div className="homeservice-img__box-more">
                                         <img src={item.img} alt="" className="homeservice-img-more" />
                                     </div>
                                     <div className='more-book-text'>
                                         <div className="homeservice-text-more">{item.title}</div>
                                         <div className="homeservice-author-more">{item.author}</div>
-                                        <div className="homeservice-price-more">{item.price}</div>
+                                        <div className="homeservice-price-more">{item.price}
+                                            <div className='addShopCar'>
+                                                <img src={imgShopCar} alt="" />
+                                            </div>
+                                        </div>
                                     </div>
-                                    </div>
-                            
+                                    
+                                </div>
                             )
                         })
                     }
@@ -86,8 +99,13 @@ const More = (props) => {
 const mapStateToDispatch = (dispatch) => {
     return {
         getMainDataDispatch() {
-
-            dispatch(actionTypes.getMainData())
+            dispatch(actionTypesMain.getMainData())
+        },
+        AddShopcarDispatch(item) {
+            dispatch(actionTypesDetail.addShopCar(item))
+        },
+        gotoDetailDispatch(item) {
+            dispatch(actionTypesDetail.gotodetail(item))
         }
     }
 }
