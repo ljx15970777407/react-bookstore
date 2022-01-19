@@ -1,6 +1,7 @@
 import React, { useEffect, memo, useState} from 'react';
 import { connect } from 'react-redux'
 import './Detail.css'
+import { useHistory } from 'react-router-dom';
 import imgShopCar from '../../assets/images/购物车.png'
 import * as actions from './store/actionCreators'
 import { useLocation } from 'react-router-dom';
@@ -17,6 +18,10 @@ const Detail = (props) => {
     }, [])
     const handleShare = () => {
         // to be continue share
+    }
+    const history = useHistory()
+    const gotoInfo = () => {
+        history.push('/home/info')
     }
 
     return (
@@ -35,7 +40,7 @@ const Detail = (props) => {
                 <div className='detail-price'>
                     <div className='detail-price-text'>{data[index]?.price}</div>
                     <button>加入购物车</button>
-                    <div className='detail-price-img'><img src={imgShopCar} alt="" /></div>
+                    <div className='detail-price-img' onClick={() => gotoInfo()}><img src={imgShopCar} alt="" /></div>
                 </div>
             </div>
         </div>

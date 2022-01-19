@@ -21,8 +21,8 @@ import MainPopup from
     '../../components/mainPopup/MainPopup.jsx'
 import HomeService from
     '@/components/main/homeService/HomeService.jsx'
-import FrameLayout from
-    '../../components/main/frameLayout/FrameLayout.jsx'
+// import FrameLayout from
+//     '../../components/main/frameLayout/FrameLayout.jsx'
 import Commodity from
     '../../components/main/commodity/Commodity.jsx'
 import Auction from
